@@ -1,0 +1,14 @@
+
+====== Starting plaintext trace (process ID 4515 - integration_server.Training) ======
+=== Build ib000-L191213.17092 (S000-L191212.16315) - IBM App Connect Enterprise 11.0.0.7 ===
+=== Platform Mac OS X / x86_64 / 10.15.3 ===
+=== Timestamps are formatted in local time, 240 minutes before GMT. ===
+=== Time now 2020-03-21 15:15:30.223310 ===
+
+
+====== Starting plaintext trace (process ID 12008 - integration_server.Training) ======
+=== Build ib000-L191213.17092 (S000-L191212.16315) - IBM App Connect Enterprise 11.0.0.7 ===
+=== Platform Mac OS X / x86_64 / 10.15.3 ===
+=== Timestamps are formatted in local time, 240 minutes before GMT. ===
+=== Time now 2020-03-21 20:45:11.158824 ===
+

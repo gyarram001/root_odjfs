@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1584818070520_1" label="[MacTraining1]" name="[MacTraining1]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MacTraining1" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1584839497974_2" label="[ExampleMQ]" name="[ExampleMQ]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExampleMQ" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587008152146_3" label="[ExampleCollector]" name="[ExampleCollector]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExampleCollector" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587008565274_4" label="[CommaSeparatedValues]" name="[CommaSeparatedValues]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CommaSeparatedValues" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587008565277_5" label="[Sequence]" name="[Sequence]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Sequence" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587008901894_6" label="[Resequence]" name="[Resequence]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Resequence" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587010080515_7" label="[LoopBack]" name="[LoopBack]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoopBack" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1584818037625_0" label="Window Working Set" name="Aggregate for window 1584818037624"/>
+</workingSetManager>

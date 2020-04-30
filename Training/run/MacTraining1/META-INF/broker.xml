@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="MQTest">
+<ConfigurableProperty uri="MQTest#additionalInstances"/>
+<ConfigurableProperty uri="MQTest#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="MQTest#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="MQTest#processingTimeoutSec"/>
+<ConfigurableProperty uri="MQTest#processingTimeoutAction"/>
+<ConfigurableProperty uri="MQTest#wlmPolicy"/>
+<ConfigurableProperty uri="MQTest#commitCount"/>
+<ConfigurableProperty uri="MQTest#commitInterval"/>
+<ConfigurableProperty uri="MQTest#coordinatedTransaction"/>
+<ConfigurableProperty uri="MQTest#consumerPolicySet"/>
+<ConfigurableProperty uri="MQTest#providerPolicySet"/>
+<ConfigurableProperty uri="MQTest#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="MQTest#providerPolicySetBindings"/>
+<ConfigurableProperty uri="MQTest#securityProfileName"/>
+<ConfigurableProperty uri="MQTest#monitoringProfile"/>
+<ConfigurableProperty uri="MQTest#startMode"/>
+<ConfigurableProperty uri="MQTest#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="DEV.QUEUE.1" uri="MQTest#MQ Input.queueName"/>
+<ConfigurableProperty override="CLIENT" uri="MQTest#MQ Input.connection"/>
+<ConfigurableProperty override="QM1" uri="MQTest#MQ Input.destinationQueueManagerName"/>
+<ConfigurableProperty override="localhost" uri="MQTest#MQ Input.queueManagerHostname"/>
+<ConfigurableProperty override="1414" uri="MQTest#MQ Input.listenerPortNumber"/>
+<ConfigurableProperty override="DEV.ADMIN.SVRCONN" uri="MQTest#MQ Input.channelName"/>
+<ConfigurableProperty override="macmq" uri="MQTest#MQ Input.securityIdentity"/>
+<ConfigurableProperty uri="MQTest#MQ Input.useSSL"/>
+<ConfigurableProperty uri="MQTest#MQ Input.SSLPeerName"/>
+<ConfigurableProperty uri="MQTest#MQ Input.SSLCipherSpec"/>
+<ConfigurableProperty uri="MQTest#MQ Input.serializationToken"/>
+<ConfigurableProperty uri="MQTest#MQ Input.topicProperty"/>
+<ConfigurableProperty uri="MQTest#MQ Input.resetBrowseTimeout"/>
+<ConfigurableProperty uri="MQTest#MQ Input.validateMaster"/>
+<ConfigurableProperty uri="MQTest#MQ Input.securityProfileName"/>
+<ConfigurableProperty uri="MQTest#MQ Input.componentLevel"/>
+<ConfigurableProperty uri="MQTest#MQ Input.additionalInstances"/>
+<ConfigurableProperty uri="MQTest#MQ Input.policyUrl"/>
+<ConfigurableProperty override="DEV.QUEUE.3" uri="MQTest#MQ Output.queueName"/>
+<ConfigurableProperty override="CLIENT" uri="MQTest#MQ Output.connection"/>
+<ConfigurableProperty override="QM1" uri="MQTest#MQ Output.destinationQueueManagerName"/>
+<ConfigurableProperty override="localhost" uri="MQTest#MQ Output.queueManagerHostname"/>
+<ConfigurableProperty override="1414" uri="MQTest#MQ Output.listenerPortNumber"/>
+<ConfigurableProperty override="DEV.ADMIN.SVRCONN" uri="MQTest#MQ Output.channelName"/>
+<ConfigurableProperty override="macmq" uri="MQTest#MQ Output.securityIdentity"/>
+<ConfigurableProperty uri="MQTest#MQ Output.useSSL"/>
+<ConfigurableProperty uri="MQTest#MQ Output.SSLPeerName"/>
+<ConfigurableProperty uri="MQTest#MQ Output.SSLCipherSpec"/>
+<ConfigurableProperty uri="MQTest#MQ Output.queueManagerName"/>
+<ConfigurableProperty uri="MQTest#MQ Output.replyToQMgr"/>
+<ConfigurableProperty uri="MQTest#MQ Output.replyToQ"/>
+<ConfigurableProperty uri="MQTest#MQ Output.validateMaster"/>
+<ConfigurableProperty uri="MQTest#MQ Output.securityProfileName"/>
+<ConfigurableProperty uri="MQTest#MQ Output.policyUrl"/>
+<ConfigurableProperty uri="MQTest#MQ Output.AddRequestToGroup"/>
+<ConfigurableProperty uri="MQTest#MQ Output.GroupRequestFolderName"/>
+<ConfigurableProperty uri="MQTest#MQ Output.GroupRequestTimeout"/>
+</CompiledMessageFlow>
+</Broker>

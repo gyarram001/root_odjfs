@@ -1,0 +1,53 @@
+package root_odjfs;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.ObjectInputStream.GetField;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mysql.cj.protocol.Resultset;
+//import com.mysql.cj.x.protobuf.MysqlxSession.Reset;
+
+
+
+
+
+import java.sql.*;
+
+public class rootOdjfsInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 ObjectMapper mapper = new ObjectMapper();		 
+		
+		try {
+			jsonDto claim = mapper.readValue(new File("sample.json"), jsonDto.class);
+			String query1 = "select * from root where Id = 5";
+			String query2 = "insert into root (FirstName, LastName,Address,City,State,Ssn) values ('"+claim.getFirstName()+"','"+claim.getLastName()+"','"+claim.getAddress()+"','"+claim.getCity()+"','"+claim.getState()+"','"+claim.getSsn()+"')";
+			String Column = null;
+			
+			DatabaseManager dm = new DatabaseManager();
+			
+			dm.insertIntoTable(query2);
+			
+			Column = dm.getFromTable(query1, "LastName", Column);
+			System.out.println(Column);
+			
+		} catch (JsonParseException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (JsonMappingException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+
+	}
+
+}

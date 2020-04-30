@@ -1,0 +1,47 @@
+package root_odjfs;
+
+import java.io.File;
+import java.io.IOException;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mysql.cj.protocol.Resultset;
+import com.mysql.cj.x.protobuf.MysqlxSession.Reset;
+
+import java.sql.*;
+
+public class rootOdjfsInterface {
+
+	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException, ClassNotFoundException {
+		// TODO Auto-generated method stub
+
+		 ObjectMapper mapper = new ObjectMapper();		 
+		
+		jsonDto claim = mapper.readValue(new File("sample.json"), jsonDto.class);
+		
+		
+		
+		String url = "jdbc:mysql://localhost:3306/sys?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+		String user = "root";
+		String password = "Lkjhg1727#";
+		String query = "select * from ROOT where FirstName='Gopal'";
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		try {
+			Connection con = DriverManager.getConnection(url, user, password);
+			Statement st = con.createStatement();
+			ResultSet rs = st.executeQuery(query);
+			String lastName = rs.getString("LastName");
+			
+			System.out.println(lastName);
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

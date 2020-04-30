@@ -1,0 +1,14 @@
+.....2020-03-22 00:45:11.290687: .2020-03-21 20:45:11.293211: Integration server 'Training' starting initialization; version '11.0.0.7' (64-bit) 
+....................Listening for transport dt_socket at address: 9997
+....................2020-03-21 20:45:13.975609: About to 'Initialize' the deployed resource 'MacTraining1' of type 'Application'. 
+2020-03-21 20:45:14.357491: Message Flow 'MQTest', 'MQTest' encountered a failure and could not start. 
+2020-03-21 20:45:14.357564: A component was configured to use IBM MQ, but the required MQ libraries are not available. 
+2020-03-21 20:45:14.357615: About to 'Start' the deployed resource 'MacTraining1' of type 'Application'. 
+..2020-03-21 20:45:15.913427: IBM App Connect Enterprise administration security is inactive. 
+2020-03-21 20:45:15.928937: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+
+2020-03-21 20:45:15.929552: Integration server has finished initialization. 
+2020-03-21 20:46:31.983922: Request to 'Setup' resource 'MQTest', 'MQTest' of type 'MessageFlow' failed. 
+2020-03-21 20:46:31.984204: A component was configured to use IBM MQ, but the required MQ libraries are not available. 
+2020-03-21 21:10:47.851780: Request to 'Setup' resource 'MQTest', 'MQTest' of type 'MessageFlow' failed. 
+2020-03-21 21:10:47.853252: A component was configured to use IBM MQ, but the required MQ libraries are not available. 

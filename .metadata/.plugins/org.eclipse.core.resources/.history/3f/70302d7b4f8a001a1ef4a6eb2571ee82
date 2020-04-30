@@ -1,0 +1,18 @@
+package root_odjfs;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DatabaseConnection {
+	
+	String url = "jdbc:mysql://localhost:3306/sys?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+	String user = "root";
+	String password = "Lkjhg1727#";
+	String query = "select * from ROOT";
+	
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	Connection con = DriverManager.getConnection(url, user, password);
+	
+	
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><MessageBroker name="CommaSeparatedValues">
+  <XSDCollection href="platform:/resource/CommaSeparatedValues/IBMdefined/CommaSeparatedFormat.xsd" prefix="tns" targetNamespace="http://www.ibm.com/dfdl/CommaSeparatedFormat"/>
+  <XSDCollection href="platform:/resource/CommaSeparatedValues/csv.xsd" prefix="" targetNamespace="">
+    <import name="IBMdefined/CommaSeparatedFormat.xsd" targetNamespace="http://www.ibm.com/dfdl/CommaSeparatedFormat"/>
+    <element href="platform:/resource/CommaSeparatedValues/csv.xsd#//csv;XSDElementDeclaration" name="csv"/>
+  </XSDCollection>
+</MessageBroker>

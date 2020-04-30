@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><servers>
+  <server auto-publish-setting="2" auto-publish-time="1" hostname="localhost" id="WebSphere Application Server Liberty at localhost" looseConfig="true" name="WebSphere Application Server Liberty at localhost" runtime-id="WebSphere Application Server Liberty" server-type="com.ibm.ws.st.server.wlp" server-type-id="com.ibm.ws.st.server.wlp" serverName="defaultServer" serverType="libertyServer" start-timeout="60" stop-timeout="15" timestamp="1" userDirId="WebSphere Application Server Liberty">
+    <list key="modules" value0="root_odjfs::org.eclipse.jst.jee.server:root_odjfs::jst.web::3.0"/>
+  </server>
+</servers>
