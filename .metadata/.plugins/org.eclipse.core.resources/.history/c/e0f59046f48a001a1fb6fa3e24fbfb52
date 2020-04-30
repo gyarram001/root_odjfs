@@ -29,7 +29,7 @@ public class rootOdjfsInterface {
 			String query2 = "insert into root (FirstName, LastName,Address,City,State,Ssn) values ('"+claim.getFirstName()+"','"+claim.getLastName()+"','"+claim.getAddress()+"','"+claim.getCity()+"','"+claim.getState()+"','"+claim.getSsn()+"')";
 			String Column = null;
 			
-			//This is my changes
+			//test git 2
 			
 			DatabaseManager dm = new DatabaseManager();
 			
